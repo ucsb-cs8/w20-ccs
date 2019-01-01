@@ -2,7 +2,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
-remote_theme: pconrad/ucsb-cs-jekyll-theme-try2
+remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme
 
 url: https://ucsb-cs8.github.io # the base hostname & protocol for your site
 baseurl: /w19-matni  # the subpath of your site, e.g. "/blog"
@@ -19,9 +19,8 @@ exclude:
 course: "CS8"
 qtr: "W19"
 qxx: "w19"
+instructor: "Matni"
 quarter: "Winter 2019"
-piazza_url: https://piazza.com/class/jq1niebmrhm625
-gauchospace_course_page: https://gauchospace.ucsb.edu/courses/course/view.php?id=37776
 github_org_name: ucsb-cs8-w19-matni
 github_org_url: https://github.com/ucsb-cs8-w19-matni
 
@@ -33,15 +32,6 @@ discussion_section_times:
 github_url: https://github.com/ucsb-cs8/w19-matni
 mentor_url: 
 
-on_campus: http://proquest.safaribooksonline.com
-off_campus: http://proquest.safaribooksonline.com.proxy.library.ucsb.edu:2048
-hfj_url: book/programming/java/0596009208
-hfdp_url: book/software-engineering-and-development/patterns/0596007124 
-
-legacy_wiki_url: https://foo.cs.ucsb.edu/8wiki
-legacy_wiki_name: "8wiki"
-
-submit_cs_course: TBD
 
 start_week: 0
 start_date: 2019-01-06 00:00:00.00-8:00
@@ -62,12 +52,6 @@ cal_dates: >
 
 hwk_drop_lowest: one
 
-legacy_wiki_name: 8wiki
-legacy_wiki_url: "https://foo.cs.ucsb.edu/8wiki" 
-
-
-hfj_chapter_url_prefix: 
-hfdp_chapter_url_prefix: 
 
 kramdown:
    parse_block_html: true

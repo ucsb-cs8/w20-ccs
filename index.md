@@ -1,9 +1,9 @@
 ---
-title: CS56
+title: CS8 W19 Matni
 permalink: "/"
 ---
 
-# {{site.course}}, {{site.quarter}}
+# {{site.course}}, {{site.quarter}} {{site.instructor}}
 
 {% include collapse-button.html label="Information" id="info-list" %}
 <div class="collapse" id="info-list">
