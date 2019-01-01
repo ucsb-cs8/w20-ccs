@@ -4,8 +4,8 @@ plugins:
 
 remote_theme: pconrad/ucsb-cs-jekyll-theme-try2
 
-url: https://ucsb-cs56.github.io # the base hostname & protocol for your site
-baseurl: /f18  # the subpath of your site, e.g. "/blog"
+url: https://ucsb-cs8.github.io # the base hostname & protocol for your site
+baseurl: /w19-matni  # the subpath of your site, e.g. "/blog"
 
 
 include:
@@ -16,70 +16,63 @@ exclude:
   - LICENSE
   - .bundle
 
-course: "CS56"
-qtr: "F18"
-qxx: "f18"
-quarter: "Fall 2018"
-piazza_url: https://piazza.com/class/jkq2p768nf6xb
-gauchospace_course_page: https://gauchospace.ucsb.edu/courses/course/view.php?id=31412
-github_org_name: ucsb-cs56-f18
-github_org_url: https://github.com/ucsb-cs56-f18
+course: "CS8"
+qtr: "W19"
+qxx: "w19"
+quarter: "Winter 2019"
+piazza_url: https://piazza.com/class/jq1niebmrhm625
+gauchospace_course_page: https://gauchospace.ucsb.edu/courses/course/view.php?id=37776
+github_org_name: ucsb-cs8-w19-matni
+github_org_url: https://github.com/ucsb-cs8-w19-matni
 
-ta_list: "Santha and Jinjin"
-ta_list_full: "Santha Meena Ramamoorthy and Jinjin Shao"
-mentors_list: "Daniel, Meredith, Rachel, Ryan, Sasha and Wei Tung"
-discussion_section_times: "5pm,&nbsp;6pm,&nbsp;7pm"
+ta_list: 
+ta_list_full: 
+mentors_list: 
+discussion_section_times:
 
-github_url: https://github.com/ucsb-cs56/f18
-mentor_url: https://ucsb-cs56-pconrad-mentors.github.io
+github_url: https://github.com/ucsb-cs8/w19-matni
+mentor_url: 
 
 on_campus: http://proquest.safaribooksonline.com
 off_campus: http://proquest.safaribooksonline.com.proxy.library.ucsb.edu:2048
 hfj_url: book/programming/java/0596009208
 hfdp_url: book/software-engineering-and-development/patterns/0596007124 
 
-legacy_wiki_url: https://foo.cs.ucsb.edu/56wiki
-legacy_wiki_name: "56wiki"
+legacy_wiki_url: https://foo.cs.ucsb.edu/8wiki
+legacy_wiki_name: "8wiki"
 
 submit_cs_course: TBD
 
 start_week: 0
-start_date: 2018-09-23 00:00:00.00-8:00
-num_weeks: 11
+start_date: 2019-01-06 00:00:00.00-8:00
+num_weeks: 10
 extra_exam_week: true
-sections: "5pm,&nbsp;6pm,&nbsp;7pm"
+sections:
 
 cal_dates: >
   [
-    {"label":"F18 official start date", "date":"2018-09-23" },
-    {"label":"F18 1st day of instruction", "date":"2018-09-27" },	
-    {"label":"Univ Holiday", "date":"2018-11-12" },
-    {"label":"Univ Holiday", "date":"2018-11-22" },
-    {"label":"Univ Holiday", "date":"2018-11-23" },
-    {"label":"F18 instruction ends", "date":"2018-12-07" },
-    {"label":"F18 finals start", "date":"2018-12-08" },
-    {"label":"F18 finals end", "date":"2018-12-14" },
-    {"label":"F18 qtr ends", "date":"2018-12-14" }
+    {"label":"W19 1st day of instruction", "date":"2019-01-07" },	
+    {"label":"Univ Holiday", "date":"2019-01-21" },
+    {"label":"Univ Holiday", "date":"2019-12-18" },
+    {"label":"W19 instruction ends", "date":"2019-03-15" },
+    {"label":"W19 finals start", "date":"2019-03-18" },
+    {"label":"W19 finals end", "date":"2019-03-22" },
+    {"label":"W19 qtr ends", "date":"2018-03-22" }
   ]
 
-hwk_drop_lowest: three
+hwk_drop_lowest: one
 
-legacy_wiki_name: 56wiki
-legacy_wiki_url: "https://foo.cs.ucsb.edu/56wiki" 
+legacy_wiki_name: 8wiki
+legacy_wiki_url: "https://foo.cs.ucsb.edu/8wiki" 
 
 
-hfj_chapter_url_prefix: "http://ucsb-cs56-pconrad.github.io/hfj/HFJ_Chapter_"
-hfdp_chapter_url_prefix: "http://ucsb-cs56-pconrad.github.io/hfdp/HFDP_Chapter_"
+hfj_chapter_url_prefix: 
+hfdp_chapter_url_prefix: 
 
 kramdown:
    parse_block_html: true
 
-
 exclude:
-   - vendor
-   - _exam/e02/cs56_m16_e02/code
-   - _exam/e01/cs56_f16_e01/code
-
 
 timezone: America/Los_Angeles
 
@@ -104,7 +97,6 @@ collections:
   staff:
     output: true
     permalink: /staff/:path
-
 
 
 defaults:

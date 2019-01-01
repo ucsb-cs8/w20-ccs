@@ -7,14 +7,14 @@
 #    https://ucsb-cs56.github.io/s19
 #    etc.
 
-production_url: https://ucsb-cs56.github.io
+production_url: https://ucsb-cs8.github.io
 
 # List the title and url for each item on navigation bar.
 # For items that should be relative urls, put the baseurl of the site
 # they come from, / for main site, and /f18, /s19, etc for child sites.
 
 home:
-   title: UCSB CS56
+   title: UCSB CS8
    url: /
    baseurl: /
 
@@ -31,13 +31,13 @@ main_dropdown:
        url: /textbook_list/       
 
 offerings:
-   title: F18
+   title: W19
    url: /	
-   baseurl: /f18
+   baseurl: /w19
    items:
-      - title: F18
+      - title: W19
         url: /
-        baseurl: /f18
+        baseurl: /w19
       - title: S19
         url: /
         baseurl: /s19
@@ -80,9 +80,6 @@ offering_links:
          description: "Q&A Forum"
   - title: Github
     dropdown:
-       - title: ucsb-cs56-f18
-         url: https://github.com/ucsb-cs56-f18
-       - title: ucsb-cs56-webapps
-         url: https://github.com/ucsb-cs56-webapps
-
+       - title: ucsb-cs8-w19-matni
+         url: https://github.com/ucsb-cs8-w19-matni
 
