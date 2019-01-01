@@ -31,16 +31,16 @@ main_dropdown:
        url: /textbook_list/       
 
 offerings:
-   title: W19
+   title: "W19 Matni"
    url: /	
-   baseurl: /w19
+   baseurl: /w19-matni
    items:
-      - title: W19
+      - title: "W19 Matni"
         url: /
-        baseurl: /w19
-      - title: S19
+        baseurl: /w19-matni
+      - title: "W19 Mirza"
         url: /
-        baseurl: /s19
+        baseurl: /w19-mirza
 
 offering_links:
   - title: Hwk
