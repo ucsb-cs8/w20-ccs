@@ -7,7 +7,6 @@ title: "CS8, W19, Matni"
 <br>
 
 {% include collapse-button.html label="Information" id="info-list" %}
-
 <div class="collapse" id="info-list">
  <div class="card card-body">
   {% include info_list.html %}
@@ -43,12 +42,10 @@ title: "CS8, W19, Matni"
  </div>
 </div>
 
-
 {% include collapse-button.html label="Exams" id="exams" %}
 <div class="collapse" id="exams">
  <div class="card card-body">
   {%include exam_table.html %}
  </div>
 </div>
-
 
