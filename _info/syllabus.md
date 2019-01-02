@@ -1,10 +1,6 @@
 ---
 title: "Syllabus, CMPSC 8, Winter 2019, Z. Matni"
-layout: handout
-ready: false
 ---
-
-<div style="font-size:110%;" markdown="1">
 
 Basic Facts
 -----------
@@ -21,4 +17,5 @@ Basic Facts
     * TA Zexi Huang    TBD
     * TA Alex Ermakov  TBD
 
-READ THE FULL SYLLABUS! IT IS AT <a href="xxx" _target=blank>THIS URL</a>.
+READ THE FULL SYLLABUS! IT IS AT [THIS URL](https://url-goes-here)
+
