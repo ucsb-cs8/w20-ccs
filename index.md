@@ -43,9 +43,6 @@ permalink: "/"
 {% include collapse-button.html label="Lectures" id="lectures" %}
 <div class="collapse" id="lectures">
  <div class="card card-body">
-
-/*  See also: [LECTURE* repos]({{site.github_org_url}}?utf8=%E2%9C%93&q=LECTURE&type=&language=) from <{{site.github_org_url}}>}}>  */
-  
-{%include lectures_table.html %}
+    {%include lectures_table.html %}
  </div>
 </div>
