@@ -12,17 +12,19 @@ permalink: "/"
  </div>
 </div>
 
+<!--
 {% include collapse-button.html label="Course Staff Bios" id="staff-list" %}
 <div class="collapse" id="staff-list">
  <div class="card card-body">
   {% include staff_list.html %}
  </div>
 </div>
+-->
 
-{% include collapse-button.html label="Labs" id="labs" %}
-<div class="collapse" id="labs">
+{% include collapse-button.html label="Lectures" id="lectures" %}
+<div class="collapse" id="lectures">
  <div class="card card-body">
- {% include lab_table.html %}
+    {%include lectures_table.html %}
  </div>
 </div>
 
@@ -33,16 +35,17 @@ permalink: "/"
  </div>
 </div>
 
-{% include collapse-button.html label="Exams" id="exams" %}
+{% include collapse-button.html label="Labs and Projects" id="labs" %}
+<div class="collapse" id="labs">
+ <div class="card card-body">
+ {% include lab_table.html %}
+ </div>
+</div>
+
+{% include collapse-button.html label="Sample Exams" id="exams" %}
 <div class="collapse" id="exams">
  <div class="card card-body">
   {%include exam_table.html %}
  </div>
 </div>
 
-{% include collapse-button.html label="Lectures" id="lectures" %}
-<div class="collapse" id="lectures">
- <div class="card card-body">
-    {%include lectures_table.html %}
- </div>
-</div>
