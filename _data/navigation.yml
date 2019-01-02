@@ -1,17 +1,4 @@
-# the production_url is the url that the parent/child site have in common
-#  e.g. production_url: https://ucsb-cs56.github.io
-#  for main site http://ucsb-cs56.github.io
-#  and child sites
-#    https://ucsb-cs56.github.io/w18
-#    https://ucsb-cs56.github.io/f18
-#    https://ucsb-cs56.github.io/s19
-#    etc.
-
 production_url: https://ucsb-cs8.github.io
-
-# List the title and url for each item on navigation bar.
-# For items that should be relative urls, put the baseurl of the site
-# they come from, / for main site, and /f18, /s19, etc for child sites.
 
 home:
    title: UCSB CS8
@@ -21,14 +8,19 @@ home:
 main_dropdown:
    title: Resources
    items:
-     - title: Topics
+     - title: "CS8 or CS16?"
+       url: /8-or-16/
+     - title: Textbooks
+       url: /textbooks_list/       
+     - title: Python Topics
+       url: /ptopic_list/
+     - title: Other Topics
        url: /topic_list/
      - title: Resources
-       url: /resource_list/
+       url: /resources_list/
      - title: Tutorials
-       url: /tutorial_list/
-     - title: Textbooks
-       url: /textbook_list/       
+       url: /tutorials_list/
+
 
 offerings:
    title: "W19 Matni"
@@ -63,10 +55,6 @@ offering_links:
        - title: Info Pages
          url: /info_list/
          description: "List of General Information Pages"
-       - title: Office Hours	
-         url: /info/office_hours/
-       - title: Staff
-         url: /staff_list/
   - title: Links
     dropdown:	 
        - title: Gauchospace
@@ -78,8 +66,5 @@ offering_links:
        - title: Piazza
          url: https://piazza.com
          description: "Q&A Forum"
-  - title: Github
-    dropdown:
-       - title: ucsb-cs8-w19-matni
-         url: https://github.com/ucsb-cs8-w19-matni
+
 
