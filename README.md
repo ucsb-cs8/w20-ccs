@@ -13,6 +13,7 @@ Jekyll status on Travis-CI: [![Build Status](https://travis-ci.org/ucsb-cs8/w19-
 
 * Travis-ci: <https://travis-ci.org/ucsb-cs8/w19-matni>
 * To add a status image like this in your README.md, see [these instructions](https://docs.travis-ci.com/user/status-images/)
+* You can login to travis-ci.org with your normal Github.com username/password.
 
 To test locally:
 * One time setup:
