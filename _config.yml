@@ -47,7 +47,7 @@ cal_dates: >
     {"label":"W19 instruction ends", "date":"2019-03-15" },
     {"label":"W19 finals start", "date":"2019-03-18" },
     {"label":"W19 finals end", "date":"2019-03-22" },
-    {"label":"W19 qtr ends", "date":"2018-03-22" }
+    {"label":"W19 qtr ends", "date":"2019-03-22" }
   ]
 
 hwk_drop_lowest: one
