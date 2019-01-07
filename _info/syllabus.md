@@ -17,5 +17,7 @@ Basic Facts
     * TA Zexi Huang    (lab on Tu. 3 PM) Tu. 5 - 8 PM in PHELP 3525
     * TA Keqian Li     (lab on Tu. 4 PM) Th. 5 - 8 PM in PHELP 2510 
 
+<h2>
 READ THE FULL SYLLABUS! IT IS AT [THIS URL](http://cs.ucsb.edu/~zmatni/syllabi/CS8W19_syllabus.pdf){:target="_blank"}
+</h2>
 
