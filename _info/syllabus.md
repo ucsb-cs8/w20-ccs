@@ -5,7 +5,7 @@ title: "Syllabus, CMPSC 8, Winter 2019, Z. Matni"
 Basic Facts
 -----------
 
-* **Instructor**:  [Ziad Matni](http://www.cs.ucsb.edu/~zmatni)
+* **Instructor**:  [Ziad Matni, Ph.D.](http://www.cs.ucsb.edu/~zmatni)
    * Use the "instructor messsage" in Piazza to contact Prof. Matni, as well as all TAs.
 * **Lecture**: M W 9:30AM - 10:45AM, CHEM 1171. ATTENDANCE REQUIRED. 
 * **TAs**: {{site.ta_list_full}} (contact via Piazza)
