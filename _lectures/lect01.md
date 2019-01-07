@@ -2,7 +2,7 @@
 num: "lect01"
 lecture_date: 2019-01-07
 desc: "Introduction and Overview of the Course"
-ready: false
+ready: true
 pdfurl: /lectures/pdf/lect01.pdf
 annotatedpdfurl: /lectures/lect1_ann.pdf
 annotatedready: false
@@ -17,7 +17,6 @@ annotatedready: false
 * Unix file system
 * Navigating the file system using Command Line
 * Learn a few unix commands: ls, pwd, mkdir, cd, cp, mv
-* Remote access with ssh
 
 # Python REPL (Read Eval Print Loop)
 
