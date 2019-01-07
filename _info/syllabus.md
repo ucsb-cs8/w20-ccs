@@ -9,7 +9,7 @@ Basic Facts
    * Use the "instructor messsage" in Piazza to contact Prof. Matni, as well as all TAs.
 * **Lecture**: M W 9:30AM - 10:45AM, CHEM 1171. ATTENDANCE REQUIRED. 
 * **TAs**: {{site.ta_list_full}} (contact via Piazza)
-* **Lab** (50 minute discussion section) Tuesday {{site.discussion_section_times}}, Phelps 3525. ATTENDANCE REQUIRED.                                         
+* **Lab** (50 minute discussion section) {{site.discussion_section_times}}, Phelps 3525. ATTENDANCE REQUIRED.                                         
 * Office Hours: 
     * Prof. Matni: Wed. 1:00-2:30 PM in SSMS 4409
     * TA Alex Ermakov  (lab on Tu. 1 PM) Fr. 11 AM - 12 PM in PHELP 2510
