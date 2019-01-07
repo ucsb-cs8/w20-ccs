@@ -12,10 +12,10 @@ Basic Facts
 * **Lab** (50 minute discussion section) Tuesday {{site.discussion_section_times}}, Phelps 3525. ATTENDANCE REQUIRED.                                         
 * Office Hours: 
     * Prof. Matni: Wed. 1:00-2:30 PM in SSMS 4409
-    * TA Keqian Li     TBD
-    * TA Muqsit Nawaz  TBD
-    * TA Zexi Huang    TBD
-    * TA Alex Ermakov  TBD
+    * TA Alex Ermakov  (lab on Tu. 1 PM) Fr. 11 AM - 12 PM in PHELP 2510
+    * TA Muqsit Nawaz  (lab on Tu. 2 PM) Mo. 6 - 9 PM in PHELP 2510
+    * TA Zexi Huang    (lab on Tu. 3 PM) Tu. 5 - 8 PM in PHELP 3525
+    * TA Keqian Li     (lab on Tu. 4 PM) Th. 5 - 8 PM in PHELP 2510 
 
-READ THE FULL SYLLABUS! IT IS AT [THIS URL](https://url-goes-here)
+READ THE FULL SYLLABUS! IT IS AT [THIS URL](http://cs.ucsb.edu/~zmatni/syllabi/CS8W19_syllabus.pdf)
 
