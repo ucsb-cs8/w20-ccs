@@ -51,11 +51,3 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 Note that `**` is right associative, not left associative.
 
-
-# IDLE and Python
-
-Review the syllabus at this link:  <{{site.url}}/info/syllabus/>
-
-
-
-
