@@ -3,22 +3,21 @@ layout: lab
 num: lab00
 ready: true
 desc: "Getting Started"
-assigned: 2019-01-08 13:00:00.00-7
-due: 2019-01-11 17:00:00.00-7
+assigned: 2018-04-02 8:00:00.00-7
+due: 2018-04-06 17:00:00.00-7
 ---
 
 # Introduction
 
-This lab is an introduction to Python programming using the Linux Computers in Phelps 3525 and CSIL.  You will write your first Python program that will print a specific text output on your computer display.  The TAs in the lab are there to assist you.    
+This lab is an introduction to Python programming.  You will write your first Python program that will print a specific text output on your computer display. 
 
 ## Goals for this lab
 
 By the time you have completed this lab, you should be able to:
 
-* use the computers in Phelps 3525 (and other labs like CSIL) to do basic things such as:
-   * perform basic management of directories and files
-   * create Python progams in IDLE 
-   * submit an assignment using the gradescope system
+* perform basic management of directories and files
+* create Python progams in IDLE 
+* submit an assignment using the gradescope system
    
 This assignment is designed to make sure you are comfortable working in the 
 computing environment and know how to submit your work. It is mostly about
@@ -27,26 +26,14 @@ challenging. Future labs will require quite a bit more thought!
 
 # Step by Step Instructions
 
-## Step 1: Verify your College of Engineering Account(s)
 
-The Gauchospace message that welcomed you to the course invited you to 
-create a College of Engineering account (also known as a ECI account, or a CSIL account) at this link:
 
-<https://accounts.engr.ucsb.edu/create/>
-
-We hope you did that&mdash;if so, you should be able to use that account to login on the computers in Phelps 3525, as well as the computers in the CSIL lab.   If you ever forget the password to your ECI/CSIL account, you can reset it here:
-
-<https://accounts.engr.ucsb.edu/maintain/>
-
-If your account doesn't work, ask a course helper for assistance.
-
-The CSIL lab, by the way, is on the ground floor of Harold Frank Hall.  The glass front doors of Harold Frank Hall look out towards the ocean.  Stand just outside those doors with your back towards the ocean.   The doors to the CSIL lab are just on your right.  (If you can't look over your shoulder and see an great big tree, with the ocean just behind it, you are on the wrong side of the building.)   Hours vary--its open almost all the time during the regular school year
-
-## Step 2: Bring up a "terminal" 
+## Step 1: Bring up a "terminal" 
  
-On the Linux systems, there are a lot of things we can do with pointing and clicking with the mouse, just like on Windows or Mac. But there are also many things we can only do with the command line, or can do more easily with the command line.
+On Mac or Linux, use the terminal app to bring up a command line.
 
-So, one of the first steps will often be to bring up a "Terminal" window&mdash;a window that gives us access to the Linux "command line".
+On Windows, use "git bash here".
+* This assumes you have already installed "Git for Windows" and "Python for Windows", with adding Python into the path.
 
 <div style="float:right; width:100px; border: 1px solid #063;" markdown="1">
 ![terminal icon](Terminal.png)
@@ -58,7 +45,7 @@ Here's how:
 * Select System Tools, then Terminal (the icon should look like the image shown at right).
 * A Terminal Window should pop up.
 
-## Step 3: Create some directories
+## Step 2: Create some directories
 
 At the command prompt, we are going to type several commands to create folders
 (called &quot;directories&quot;) on Linux in which you can store your programs.The
@@ -109,7 +96,7 @@ NOTE: your prompt may not be exactly like the one shown here.  Instead of `-bash
 /<em>cs</em>/<em>student</em>/<em>yourusername</em>
 </pre>
 
-## Step 4: Checking if it worked
+## Step 3: Checking if it worked
 
 To see if it worked, you can use the file manager on the desktop. Drag
 any windows that might be covering up the &quot;Home&quot; icon on
@@ -128,7 +115,7 @@ also&mdash;the reasons it is important to know both will become more
 clear as you move deeper into the study of programming and Computer
 Science.
 
-## Step 5: Bring up the program called IDLE
+## Step 4: Bring up the program called IDLE
 
 The preliminaries are done&mdash;now we are ready to start saving files
 for Python!
@@ -148,7 +135,7 @@ in it.
 
 When you have the IDLE window up, you are ready for the next step.
 
-## Step 6: Save a file in IDLE
+## Step 5: Save a file in IDLE
 
 In IDLE, select "File=&gt;New File" to open a new "untitled" window for Python code.
 
@@ -171,7 +158,7 @@ We will save the file under the name `hello.py`&mdash;it is <strong>very importa
 That's it!   Now, you can also add, on the first line, a *comment* with your name, and information about the course, for example:
 
 ```python
-# Chris Gaucho, for CMPSC 8, Winter 2019
+# Chris Gaucho, for CMPSC 8, Winter 2018
 print ('Hello, World!')
 ```
 
@@ -181,14 +168,14 @@ In Python, a `#` starts a comment.  Everything from the `#` to the end of that l
 
 Enter this program in IDLE, then save it under the name `hello.py`
 
-## Step 7: Running your program.
+## Step 6: Running your program.
 
 To run your program, select the "Run=>Run Module" option from the menu. You should see the "Hello World!" message.
 
 I'll demonstrate the use of Idle in lecture, since its much easier to just follow along than to try to explain everything in a text document. If you need a further demonstration, you can find one on YouTube. For example: 
 [This video starting at 4:53](https://www.youtube.com/watch?v=kXbpB5_ywDw&t=4m53s)  (That video is for Python 3.1, but the stuff shown in the video is the same across all versions of Python 3.x).
 
-## Step 8: Uploading your program to Gradescope
+## Step 7: Uploading your program to Gradescope
 
 <div style="width:350px; text-align:center; float:right;" markdown="1">
 
@@ -214,10 +201,3 @@ After you submit something on Gradescope, you will have access to the "Autograde
 
 If the tests don't pass, you may get some error message that may or may not be obvious at this point. Don't worry - if the tests didn't pass, take a minute to think if your print statement is <strong>EXACTLY</strong> like stated in the lab instructions (including the same capitalization, spaces, punctuation, etc.) and the file name is <strong>EXACTLY</strong> `hello.py`. If your tests didn't pass and you're still not sure why you're getting the error, feel free to ask one of the course helpers. 
 
-## Final Step:  Log Out
-
-Actually, this is the final step of <em>every lab</em>, but we probably won't
-remind you again after this one.  In fact, you should do this every time you walk away from a lab computer, either in Phelps 3525 or CSIL.   Here's how:
-
-* Find the System Menu at the top of the screen.
-* Select Log Out
