@@ -5,7 +5,7 @@ plugins:
 remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme
 
 url: https://ucsb-cs8.github.io # the base hostname & protocol for your site
-baseurl: /w19-matni  # the subpath of your site, e.g. "/blog"
+baseurl: /w19-conrad  # the subpath of your site, e.g. "/blog"
 
 
 include:
@@ -16,21 +16,13 @@ exclude:
   - LICENSE
   - .bundle
 
-course: "CS8"
+course: "CMPTGCS 20"
 qtr: "W19"
 qxx: "w19"
-instructor: "Matni"
+instructor: "Conrad"
 quarter: "Winter 2019"
-github_org_name: ucsb-cs8-w19-matni
-github_org_url: https://github.com/ucsb-cs8-w19-matni
 
-ta_list: "Muqsit, Zexi, Keqian, and Alex"
-ta_list_full: "M. Muqsit Nawaz, Zexi Huang, Keqian Li, Alex Ermakov" 
-mentors_list: ""
-discussion_section_times: "Tuesdays, 1 PM, 2 PM, 3 PM, and 4 PM"
-
-github_url: https://github.com/ucsb-cs8/w19-matni
-mentor_url: 
+github_url: https://github.com/ucsb-cs8/w19-conrad
 
 
 start_week: 0
@@ -61,26 +53,16 @@ exclude:
 timezone: America/Los_Angeles
 
 collections:
-  hwk:
-    output: true
-    permalink: /hwk/:path/
-    last_before: false
   lab:
     output: true
     permalink: /lab/:path/
     last_before: false
-  exam:
-    output: true
-    permalink: /exam/:path/
   info:
     output: true
     permalink: /info/:path/
   lectures:
     output: true
     permalink: /lectures/:path/
-  staff:
-    output: true
-    permalink: /staff/:path
 
 
 defaults:
@@ -98,21 +80,9 @@ defaults:
   - 
     scope:
       path: ""
-      type: hwk
-    values:
-      layout: hwk
-  - 
-    scope:
-      path: ""
       type: lab
     values:
       layout: lab
-  - 
-    scope:
-      path: ""
-      type: exam
-    values:
-      layout: exam_info
   - 
     scope:
       path: ""
@@ -125,13 +95,6 @@ defaults:
       type: info
     values:
       layout: handout
-  -
-    scope:
-     path: ""
-     type: staff
-    values:
-     layout: staff
-
   - scope:
      path: ""
      type: pages

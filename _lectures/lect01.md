@@ -1,52 +1,21 @@
 ---
 num: "lect01"
-lecture_date: 2019-01-07
+lecture_date: 2019-01-08
 desc: "Introduction and Overview of the Course"
 ready: true
-pdfurl: /lectures/pdf/lect01.pdf
-annotatedpdfurl: /lectures/lect1_ann.pdf
-annotatedready: false
 ---
 
-# Intro to Course Logistics
+Possibly a guest lecture by Richert Wang.
 
-* Review the syllabus at [this link.](http://cs.ucsb.edu/~zmatni/syllabi/CS8W19_syllabus.pdf){:target="_blank"}
+Or maybe not?  Depends on traffic.
 
-# Intro to the Unix environment
+* We'll cover how to install Python on your laptops
+* We'll cover Hello World in Python
+* We'll cover submitting to Gradescope
 
-* Unix file system
-* Navigating the file system using Command Line
-* Learn a few unix commands: ls, pwd, mkdir, cd, cp, mv
+And then we'll talk about Computer Science and Python
 
-# Python REPL (Read Eval Print Loop)
+Here's some old lecture stuff that may be useful:
 
-Also called the Python Shell Prompt
-
-```
-
-Python 3.4.3 (default, Aug  9 2016, 15:36:17)
-[GCC 5.3.1 20160406 (Red Hat 5.3.1-6)] on linux
-Type "help", "copyright", "credits" or "license" for more information.
->>> 2 + 3
-5
->>> 2 + 7 *4
-30
->>> 2 ** 3
-8
->>> 2 ** 3 ** 2
-512
->>> 2 * 3 * 4
-24
->>> (2 * 3) * 4
-24
->>> 2 * (3 * 4)
-24
->>> (2 ** 3) ** 2
-64
->>> 2 ** (3 ** 2)
-512
->>>
-```
-
-Note that `**` is right associative, not left associative.
+<https://ucsb-ccs-cs20-s18.github.io/lectures/lect01/>
 
