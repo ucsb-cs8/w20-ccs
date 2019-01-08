@@ -1,9 +1,11 @@
 ---
-title: "CS8, W19, Matni"
+title: "CMPTGCS 20, W19, Conrad"
 ---
 
 
-## {{site.course}} {{site.quarter}}, Matni
+## {{site.course}} {{site.quarter}}, Conrad
+## CCS Computing for Non-Majors
+
 <br>
 
 {% include collapse-button.html label="Information" id="info-list" %}
