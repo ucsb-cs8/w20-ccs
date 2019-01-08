@@ -23,10 +23,13 @@ main_dropdown:
 
 
 offerings:
-   title: "W19 Matni"
+   title: "W19 Conrad"
    url: /	
-   baseurl: /w19-matni
+   baseurl: /w19-conrad
    items:
+      - title: "W19 Conrad"
+        url: /
+        baseurl: /w19-conrad
       - title: "W19 Matni"
         url: /
         baseurl: /w19-matni
@@ -35,15 +38,9 @@ offerings:
         baseurl: /w19-mirza
 
 offering_links:
-  - title: Hwk
-    url: /hwk_list/
-    description: "Homework Assignments"
   - title: Lab
     url: /lab_list/
     description: "Lab Assignments"
-  - title: Exam
-    url: /exam_list/
-    description: "Exams"
   - title: Cal
     url: /info/calendar/
     description: "Assignment Calendar"
@@ -63,8 +60,5 @@ offering_links:
        - title: GradeScope
          url: https://gradescope.com
          description: "HW and Lab Grades"
-       - title: Piazza
-         url: https://piazza.com
-         description: "Q&A Forum"
 
 
