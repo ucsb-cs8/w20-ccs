@@ -99,9 +99,18 @@ export FLASK_ENV=development
    ```
    
  6. Create a new file called `requirements.txt` (exactly that spelling, and all lowercase).  
-   It should have the following in it.
+    It should have the following in it.
   
-   ```
-   Flask
-   gunicorn
-   ```
+    ```
+    Flask
+    gunicorn
+    ```
+
+7.  Go back to the heroku dashboard, and select your app.  For example, if you called your app `phill-try-heroku`,
+    you should be able to click on `phill-try-heroku`and end up at this url: 
+
+    * `https://dashboard.heroku.com/apps/phill-try-heroku`
+    
+    From there, there should be an option to click where it says "Deploy". Click on that.
+    
+    
