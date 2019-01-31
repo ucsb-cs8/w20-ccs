@@ -11,3 +11,7 @@ ready: true
 
 Today, we'll dive into building sites with Flask and Bootstrap on Heroku.
 
+# Two Alternatives
+
+* Dive into the deep end with this comprehensive tutorial: <https://github.com/pallets/flask/tree/master/examples/tutorial/>
+* Go slow approach, going a little at a time through this: <http://flask.pocoo.org/docs/1.0/quickstart/>
