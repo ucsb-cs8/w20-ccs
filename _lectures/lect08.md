@@ -75,6 +75,14 @@ export FLASK_ENV=development
 
 1. If you didn't already, create an account at <https://heroku.com> and verify your email address.
 2. Go to <https://dashboard.heroku.com>
-3. Click to create a new heroku app.  Give it a name such as `chris-try-flask` or `try-flask-chris`.  The name has to be
+3. Click "New", then select "Create new app" to create a new heroku app.  Give it a name such as `chris-try-flask` or `try-flask-chris`.  The name has to be
    unique in all the world, so it's helpful to put your own personal name into the name somehow.   The name will 
    eventually be your url, i.e. `https://try-flask-chris.herokuapp.com`
+   
+4. At the webpage of your github.com repo, click "Create new file" and make a new file called `Procfile`.  It must be
+   called exactly that, with exactly that sequence of upper and lowercase: capital `P`, lowercase `rocfile`.
+
+   In the file, put this:
+   ```
+   web: gunicorn hello/app
+   ```
