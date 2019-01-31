@@ -86,3 +86,22 @@ export FLASK_ENV=development
    ```
    web: gunicorn hello/app
    ```
+
+5. Use this command to be sure `gunicorn` is installed in your local Python 3 system:
+   ```
+   pip install gunicorn
+   ```
+   
+   If you normally use `pip3` instead, do that here:
+   
+   ```
+   pip3 install gunicorn
+   ```
+   
+ 6. Create a new file called `requirements.txt` (exactly that spelling, and all lowercase).  
+   It should have the following in it.
+  
+   ```
+   Flask
+   gunicorn
+   ```
