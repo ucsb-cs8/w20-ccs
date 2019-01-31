@@ -15,3 +15,58 @@ Today, we'll dive into building sites with Flask and Bootstrap on Heroku.
 
 * Dive into the deep end with this comprehensive tutorial: <https://github.com/pallets/flask/tree/master/examples/tutorial/>
 * Go slow approach, going a little at a time through this: <http://flask.pocoo.org/docs/1.0/quickstart/>
+
+# Very Slow Approach
+
+1. Create a github.com account and verify your email address
+2. Create a heroku.com account and verify your email address
+3. Create a repo called `try_flask`; the exact name is not important
+4. Go into some folder where you do your work for this course.
+5. Copy the URL from the green button for "Clone with HTTPS"
+6. Type `git clone ` followed by the URL that you copied
+7. Create a new file on the website for your repo called `hello.py`
+8. Paste into that file the contents from here: <http://flask.pocoo.org/docs/1.0/quickstart/>
+9. Back at your command line, type `git pull origin master` and you should see the `hello.py` file come into
+   your local directory.
+10. Then, type this to define an environment variable `FLASK_APP`:
+   ```
+   export FLASK_APP=hello.py
+   ```
+   
+   On Windows Powershell, instead use:
+   
+   ```
+   $env:FLASK_APP="hello.py"
+   ```
+   
+ 11. Use this command to be sure flask is installed in your local Python:
+   ```
+   pip install flask
+   ```
+   
+   If you normally use `pip3` instead, do that here:
+   
+   ```
+   pip3 install flask
+   ```
+   
+ 12. Use this command to start your server:
+   ```
+   flask run
+   ```
+   
+# Troubleshooting
+
+If you get this warning:
+
+```
+* Environment: production
+  WARNING: Do not use the development server in a production environment.
+  Use a production WSGI server instead.
+```
+
+Here's how to fix it:
+
+```
+export FLASK_ENV=development
+```
