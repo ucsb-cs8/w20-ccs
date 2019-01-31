@@ -70,3 +70,11 @@ Here's how to fix it:
 ```
 export FLASK_ENV=development
 ```
+
+# Getting it running on Heroku
+
+1. If you didn't already, create an account at <https://heroku.com> and verify your email address.
+2. Go to <https://dashboard.heroku.com>
+3. Click to create a new heroku app.  Give it a name such as `chris-try-flask` or `try-flask-chris`.  The name has to be
+   unique in all the world, so it's helpful to put your own personal name into the name somehow.   The name will 
+   eventually be your url, i.e. `https://try-flask-chris.herokuapp.com`
