@@ -84,7 +84,7 @@ export FLASK_ENV=development
 
    In the file, put this:
    ```
-   web: gunicorn hello/app
+   web: gunicorn hello:app
    ```
 
 5. Use this command to be sure `gunicorn` is installed in your local Python 3 system:
