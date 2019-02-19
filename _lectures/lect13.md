@@ -7,3 +7,5 @@ ready: true
 
 Resources:
 
+* [Diba Mirza's CS8 Lectures](https://ucsb-cs8.github.io/w19-mirza/lectures_list/)
+* [Ziad Matni's CS8 Lectures](https://ucsb-cs8.github.io/w19-matni/lectures_list/)
