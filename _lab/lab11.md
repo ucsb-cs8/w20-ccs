@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab11
-ready: false
+ready: true
 desc: "Scrabble word finder: Python lists, dictionaries and file I/O"
 assigned: 2019-01-15 16:00:00.00
 due: 2019-03-01 17:00
