@@ -36,6 +36,15 @@ offerings:
       - title: "W19 Mirza"
         url: /
         baseurl: /w19-mirza
+      - title: "S19 Matni"
+        url: /
+        baseurl: /s19-matni
+      - title: "M19 Elsherif"
+        url: /
+        baseurl: /m19-elsherif
+      - title: "M19 Wang"
+        url: /
+        baseurl: /m19-wang
 
 offering_links:
   - title: Lab
