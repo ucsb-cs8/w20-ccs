@@ -17,30 +17,37 @@ exclude:
   - .bundle
 
 course: "CMPTGCS 20"
-qtr: "W19"
-qxx: "w19"
+qtr: "W20"
+qxx: "w20"
 instructor: "Conrad"
-quarter: "Winter 2019"
-
-github_url: https://github.com/ucsb-cs8/w19-conrad
+quarter: "Winter 2020"
 
 
-start_week: 0
-start_date: 2019-01-06 00:00:00.00-8:00
+name: "CMPTGCS 20, W20, Conrad"
+github_url: https://github.com/ucsb-cs8/w20-ccs
+baseurl: "/w20-ccs"
+url: "https://ucsb-cs8.github.io/w20-ccs"
+
+
+start_week: 1
+start_date: 2020-01-06 
 num_weeks: 10
 extra_exam_week: true
 sections:
 
 cal_dates: >
-  [
-    {"label":"W19 1st day of instruction", "date":"2019-01-07" },	
-    {"label":"Univ Holiday", "date":"2019-01-21" },
-    {"label":"Univ Holiday", "date":"2019-02-18" },
-    {"label":"W19 instruction ends", "date":"2019-03-15" },
-    {"label":"W19 finals start", "date":"2019-03-18" },
-    {"label":"W19 finals end", "date":"2019-03-22" },
-    {"label":"W19 qtr ends", "date":"2019-03-22" }
-  ]
+  [                                                                            
+    {"label":"W20 begins", "date":"2020-01-06" },              
+    {"label":"Univ Holiday", "date":"2020-01-20" },                            
+    {"label":"Univ Holiday", "date":"2020-02-17" },                            
+    {"label":"Drop w/o W", "date":"2020-02-03" },                            
+    {"label":"DST starts", "date":"2020-03-08" },                            
+    {"label":"Classes end", "date":"2020-03-13" },                    
+    {"label":"W20 finals start", "date":"2020-03-14" },                        
+    {"label":"W20 finals end", "date":"2020-03-20" },                          
+    {"label":"W20 qtr ends", "date":"2020-03-20" }                              
+  ] 
+
 
 hwk_drop_lowest: one
 
