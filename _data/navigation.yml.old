@@ -23,63 +23,46 @@ main_dropdown:
 
 
 offerings:
-   title: "W20 CCS"
+   title: "W19 Conrad"
    url: /	
-   baseurl: /w20-ccs
+   baseurl: /w19-conrad
    items:
-      - title: "W20"
+      - title: "W19 Conrad"
         url: /
-        baseurl: /w20
-      - title: "W20 CCS"
-        url: /
-        baseurl: /w20-ccs
-      - title: "F19"
-        url: /
-        baseurl: /f19
-      - title: "M19 Wang"
-        url: /
-        baseurl: /m19-wang
-      - title: "M19 ElSherif"
-        url: /
-        baseurl: /m19-elsherif
-      - title: "S19 Matni"
-        url: /
-        baseurl: /s19-matni
+        baseurl: /w19-conrad
       - title: "W19 Matni"
         url: /
         baseurl: /w19-matni
       - title: "W19 Mirza"
         url: /
         baseurl: /w19-mirza
-      - title: "W19 Conrad"
+      - title: "S19 Matni"
         url: /
-        baseurl: /w19-conrad
+        baseurl: /s19-matni
+      - title: "M19 Elsherif"
+        url: /
+        baseurl: /m19-elsherif
+      - title: "M19 Wang"
+        url: /
+        baseurl: /m19-wang
 
 offering_links:
-  - title: Assignments
-    dropdown:
-    - title: Hwk
-      url: /hwk/
-      description: "Homework Assignments"
-    - title: Lab
-      url: /lab/
-      description: "Lab Assignments"
-  - title: Lectures
-    url: /lectures/
-    description: "Lectures"
-  - title: Exam
-    url: /exam/
-    description: "Exams"
+  - title: Lab
+    url: /lab_list/
+    description: "Lab Assignments"
   - title: Cal
     url: /info/calendar/
     description: "Assignment Calendar"
+  - title: Slack
+    url: https://ccs-cs20-w19.slack.com
+    description: "Discussion Group"    
   - title: More
     dropdown:
        - title: Syllabus
          url: /info/syllabus/
          description: "Syllabus"    
        - title: Info Pages
-         url: /info/
+         url: /info_list/
          description: "List of General Information Pages"
   - title: Links
     dropdown:	 
@@ -89,8 +72,5 @@ offering_links:
        - title: GradeScope
          url: https://gradescope.com
          description: "HW and Lab Grades"
-       - title: Piazza
-         url: https://piazza.com
-         description: "Q&A Forum"
 
 
