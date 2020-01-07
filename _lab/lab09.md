@@ -5,7 +5,7 @@ desc: Recursion
 due: 2020-02-28 23:59
 layout: lab
 num: lab09
-ready: true
+ready: false
 
 ---
 

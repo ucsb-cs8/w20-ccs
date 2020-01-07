@@ -4,7 +4,7 @@ desc: Getting Started
 due: 2020-01-12 00:00
 layout: lab
 num: lab00
-ready: true
+ready: false
 
 ---
 

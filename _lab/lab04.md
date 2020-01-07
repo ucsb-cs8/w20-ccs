@@ -6,7 +6,7 @@ desc: input, scripts, command line arguments
 due: 2019-06-06 23:50
 layout: lab
 num: lab04
-ready: true
+ready: false
 submit_cs_pnum: 776
 
 ---

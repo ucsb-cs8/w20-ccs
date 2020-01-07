@@ -5,7 +5,7 @@ desc: Review for Final (optional)
 due: 2020-03-14 17:00
 layout: lab
 num: lab10
-ready: true
+ready: false
 
 ---
 

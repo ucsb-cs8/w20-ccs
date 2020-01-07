@@ -7,7 +7,7 @@ labxx_py_url: https://github.com/ucsb-ccs-cs20-s18/ucsb-ccs-cs20-s18.github.io/b
 labxx_tests_py_url: https://github.com/ucsb-ccs-cs20-s18/ucsb-ccs-cs20-s18.github.io/blob/master/_lab/lab08/lab08_tests.py
 layout: lab
 num: lab08
-ready: true
+ready: false
 
 ---
 

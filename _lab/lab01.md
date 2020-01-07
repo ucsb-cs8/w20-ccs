@@ -4,7 +4,7 @@ desc: FtoC and CtoF with test cases
 due: 2020-01-19 00:00
 layout: lab
 num: lab01
-ready: true
+ready: false
 
 ---
 
