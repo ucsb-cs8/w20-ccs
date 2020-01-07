@@ -12,7 +12,7 @@ ready: true
 
 # Software you need: Windows Version
 
-* Python 3.6.5 for Windows from <https://python.org>
+* Latest version of Python 3 for Windows from <https://python.org>
 * Git for Windows: <https://git-scm.com/download/win>
 
 Troubleshooting:
@@ -21,9 +21,8 @@ Troubleshooting:
 
 # Software you need: Mac Version
 
-* XQuartz: <https://www.xquartz.org/>
-* Python 3.6.5 for Mac <https://python.org>
-    * NOTE: You may need to address the "broken Tkinter problem" which is described here: <https://www.python.org/download/mac/tcltk/>
+
+* Latest version of Python 3 for Mac <https://python.org>
 * Git is likely already included with Mac OS, so you probably don't need to download that.
 
 
