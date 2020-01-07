@@ -12,9 +12,12 @@ ready: true
 
 # Software you need: Windows Version
 
-* MobaXTerm Home Edition: <https://mobaxterm.mobatek.net/download-home-edition.html>
 * Python 3.6.5 for Windows from <https://python.org>
 * Git for Windows: <https://git-scm.com/download/win>
+
+Troubleshooting:
+* When installing Python, be sure to customize, and click the option about environment variables
+* If python hangs in the git bash shell, use: `alias python='winpty python.exe'`
 
 # Software you need: Mac Version
 
