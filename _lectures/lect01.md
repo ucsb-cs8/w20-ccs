@@ -35,15 +35,13 @@ Troubleshooting:
 
 # Accounts that you need
 
-* Activate your College of Engineering Account here: <https://accounts.engr.ucsb.edu/create>
-   * [CoE Account Briefing (short version)](https://docs.google.com/presentation/d/e/2PACX-1vTTh_k_Sf0C0XxibAn4XuVDQ6xQD2lFHH_kIMg_PIQ-ovExO_7dT5Rsry8SEvwI1eLWaUVyt7l3icfR/pub?start=false&loop=false&delayms=60000)
 * Create a github.com account on the free plan if you don't already have one, here: <http://github.com>
    * If you haven't already done it, add your `___@umail.ucsb.edu` address (specifically your `@umail.ucsb.edu` address, not `@ucsb.edu`) to your github.com account, and then "verify" that email address.
-   * Visit <https://ucsb-cs-github-linker.herokuapp.com/>, log in with your github.com account, and join the class CCS-CS20-S18.
+   * Visit <https://ucsb-cs-github-linker.herokuapp.com/>, log in with your github.com account, and join the class CCS-CS20-W20.
 
 # The syllabus
 
-The syllabus is here:  <https://ucsb-ccs-cs20-s18.github.io/info/syllabus/>
+The syllabus is Coming soon (by Thursday)
 
 # Abstractions and Algorithms
 
