@@ -1,11 +1,10 @@
 ---
-assigned: 2020-01-22 19:30
-desc: Even more functions with test cases
-due: 2020-01-29 19:30
 layout: lab
 num: lab03
 ready: true
-
+desc: "Even more functions with test cases"
+assigned: 2018-04-17 12:30:00.00-7
+due: 2018-04-24 12:30:00.00-7
 ---
 
 In this lab, you'll get more practice with

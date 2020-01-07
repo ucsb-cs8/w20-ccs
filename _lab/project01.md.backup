@@ -1,15 +1,14 @@
 ---
-assigned: 2020-02-14 19:30
-csxx: cs20
-desc: 'Project-01 Turtle Graphics: Scene from a forest'
-due: 2020-02-25 07:59
 layout: lab
 num: project01
+ready: true
+desc: "Project-01 Turtle Graphics: Scene from a forest"
+assigned: 2018-05-10 12:30:00.00-7
+due: 2018-05-20 23:59:00.00-8
 prev_lab: lab07
 prev_lab_solution_url: https://github.com/ucsb-ccs-cs20-s18/ucsb-ccs-cs20-s18.github.io/blob/master/_lab/project01/basicShapes.py
-ready: true
+csxx: cs20
 worksheet: ic01
-
 ---
 
 ## Goal

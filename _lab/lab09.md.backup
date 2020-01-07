@@ -1,12 +1,11 @@
 ---
-assigned: 2020-02-14 13:00
-csxx: cs20
-desc: Recursion
-due: 2020-02-28 23:59
 layout: lab
 num: lab09
 ready: true
-
+desc: "Recursion"
+assigned: 2018-05-10 13:00:00.00
+due: 2018-05-24 23:59:59.59
+csxx: cs20
 ---
 
 In this lab, you'll get more practice with:

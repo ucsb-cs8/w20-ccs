@@ -1,14 +1,13 @@
 ---
-assigned: 2019-06-01 18:00
-convert_lab: lab01
-csxx: cs20
-desc: input, scripts, command line arguments
-due: 2019-06-06 23:50
 layout: lab
 num: lab04
 ready: true
-submit_cs_pnum: 776
-
+desc: "input, scripts, command line arguments"
+assigned: 2017-08-25 11:00:00.00-7
+due: 2017-08-30 16:50:00.00-7
+submit_cs_pnum: 776 
+convert_lab: lab01
+csxx: cs20
 ---
 
 

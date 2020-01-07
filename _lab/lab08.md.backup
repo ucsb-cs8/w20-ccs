@@ -1,14 +1,13 @@
 ---
-assigned: 2020-02-12 15:00
-csxx: cs20
-desc: 2D Lists and Nested for Loops
-due: 2020-02-23 06:59
-labxx_py_url: https://github.com/ucsb-ccs-cs20-s18/ucsb-ccs-cs20-s18.github.io/blob/master/_lab/lab08/lab08.py
-labxx_tests_py_url: https://github.com/ucsb-ccs-cs20-s18/ucsb-ccs-cs20-s18.github.io/blob/master/_lab/lab08/lab08_tests.py
 layout: lab
 num: lab08
 ready: true
-
+desc: "2D Lists and Nested for Loops"
+assigned: 2018-05-08 8:00:00.00-7
+due: 2018-05-18 23:59:59.59-7
+csxx: cs20
+labxx_py_url: "https://github.com/ucsb-ccs-cs20-s18/ucsb-ccs-cs20-s18.github.io/blob/master/_lab/lab08/lab08.py"
+labxx_tests_py_url: "https://github.com/ucsb-ccs-cs20-s18/ucsb-ccs-cs20-s18.github.io/blob/master/_lab/lab08/lab08_tests.py"
 ---
 
 In this lab, you'll get more practice with:

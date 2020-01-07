@@ -1,12 +1,11 @@
 ---
-assigned: 2020-02-04 08:00
-csxx: cs20
-desc: Accumulator Pattern, more TDD practice
-due: 2020-02-12 05:00
 layout: lab
 num: lab05
 ready: true
-
+desc: "Accumulator Pattern, more TDD practice"
+assigned: 2018-04-30 08:00:00.00
+due: 2018-05-07 21:00:00.00-8
+csxx: cs20
 ---
 
 # You may pair or work alone on this lab.
