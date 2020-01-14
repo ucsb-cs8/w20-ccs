@@ -223,9 +223,9 @@ Once everything passes correctly with `pytest`, submit your `{{page.num}}.py` fi
 
 *Remember to add your partner to Group Members for this submission on Gradescope if applicable.*
 
-# Step 10: Uploading your files to Gradescope
+# Step 8: Uploading your files to Gradescope
 
-Navigate to the Lab assignment <tt>{{page.num}}</tt> on Gradescope and upload your <tt>{{page.num}}.py</tt> and `{{page.num}}_face.py`. 
+Navigate to the Lab assignment <tt>{{page.num}}</tt> on Gradescope and upload your <tt>{{page.num}}.py</tt>.
 
 Your Gradescope submission will be autograded out of 100 points. 
 
