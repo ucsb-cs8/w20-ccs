@@ -801,7 +801,5 @@ Navigate to {{page.num}} on Gradescope, and upload your `convert.py` and `lab04.
 At this point, you should see that you have a perfect 100 points on Gradescope, and
 you are finished with the lab!
 
-If not, go back through each step of the lab carefully to see if you overlooked any part of the instructions before asking questions.  If you are still not sure, then either:
+If not, go back through each step of the lab carefully to see if you overlooked any part of the instructions before asking questions.  If you are still not sure, then ask questions!
 
-* visit the [Open Lab Hours](https://ucsb-cs8-s18.github.io/info/s18_open_lab_hours/)
-* visit the [Instructor's Office Hours](https://ucsb-ccs-cs20-s18.github.io/info/office_hours/)
