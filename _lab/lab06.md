@@ -6,7 +6,7 @@ due: 2020-02-14 12:30
 layout: lab
 num: lab06
 prev_lab: lab05
-ready: false
+ready: true
 starter_code_repo: https://github.com/ucsb-cs8-s18/cs8-s18-lab06-starter-code
 
 ---
