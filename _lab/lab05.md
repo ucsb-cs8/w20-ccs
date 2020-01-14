@@ -5,7 +5,7 @@ desc: Accumulator Pattern, more TDD practice
 due: 2020-02-12 05:00
 layout: lab
 num: lab05
-ready: false
+ready: true
 
 ---
 
