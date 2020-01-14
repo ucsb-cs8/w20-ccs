@@ -4,8 +4,7 @@ desc: Even more functions with test cases
 due: 2020-01-29 19:30
 layout: lab
 num: lab03
-ready: false
-
+ready: true
 ---
 
 In this lab, you'll get more practice with
