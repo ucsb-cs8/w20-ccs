@@ -658,8 +658,6 @@ here, including why it's called a "shebang":
 
 * <https://ucsb-cs8.github.io/topics/shebang/>
 
-This ONLY works on Linux and MacOS, so if you are working
-on Windows, you need to do this part on CSIL if you want to see it work.
 
 Bring up a terminal window. If your terminal window is running idle3,
 you can use the special trick of pressing CTRL-Z, then `bg` followed
