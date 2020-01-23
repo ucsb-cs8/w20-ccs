@@ -5,8 +5,7 @@ desc: 'Scrabble word finder: Python lists, dictionaries and file I/O'
 due: 2020-12-05 17:00
 layout: lab
 num: lab11
-ready: false
-
+ready: true
 ---
 
 In this lab, you'll get more practice with:
