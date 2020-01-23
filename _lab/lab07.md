@@ -5,8 +5,7 @@ desc: 'Turtle Graphics: Basic shapes'
 due: 2020-02-14 19:30
 layout: lab
 num: lab07
-ready: false
-
+ready: true
 ---
 
 
