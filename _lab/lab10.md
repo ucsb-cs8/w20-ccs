@@ -5,8 +5,7 @@ desc: Review for Final (optional)
 due: 2020-03-14 17:00
 layout: lab
 num: lab10
-ready: false
-
+ready: true
 ---
 
 This lab is a review of concepts from the course so far.  In College of Engineering offerings of this
