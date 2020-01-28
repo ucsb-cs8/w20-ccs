@@ -1,13 +1,14 @@
 ---
 assigned: 2020-10-21 16:00
 csxx: cs20
-desc: 'Scrabble word finder: Python lists, dictionaries and file I/O'
+desc: "Scrabble word finder: Python lists, dictionaries and file I/O"
 due: 2020-12-05 17:00
 layout: lab
 num: lab11
-ready: false
-
+ready: true
 ---
+
+
 
 In this lab, you'll get more practice with:
 
@@ -64,11 +65,13 @@ u        1
 i        1
 ```
 
-So, how did our program know which letter combinations were valid words?......We have to specify a file of words, which you can find here: [wordlist.txt](https://ucsb-cs8-w18-wang.github.io/lab/lab07/wordlist.txt).  This file must be downloaded (right click and "save as") and put into your `{{page.num}}` directory before you begin, so do that now.  Note that this file contains a fairly complete list of English words, so beware that there may be some expletive words - please don't hold me personally responsible if you are offended.  Perhaps this will be motivation for some of you to complete the assignment.  
+So, how did our program know which letter combinations were valid words?......We have to specify a file of words, which you can find here: [wordlist.txt](https://ucsb-cs8.github.io/m19-wang/lab/lab07/wordlist.txt).
+
+This file must be downloaded (right click and "save as") and put into your `{{page.num}}` directory before you begin, so do that now.  Note that this file contains a fairly complete list of English words, so beware that there may be some expletive and/or raunchy words - please don't hold me personally responsible if you are offended.  Perhaps this will be motivation for some of you to complete the assignment.  
 
 You can choose to start from scratch or use the starter code we have provided here (you may need to refresh the page if the links do not load immediately):
-* <https://ucsb-cs8-f18.github.io/lab/lab07/lab07.py>
-* <https://ucsb-cs8-f18.github.io/lab/lab07/lab07_student_tests.py>
+* <https://ucsb-cs8.github.io/m19-wang/lab/lab07/lab07.py>
+* <https://ucsb-cs8.github.io/m19-wang/lab/lab07/lab07_student_tests.py>
 
 ### Functions to Implement:
 
@@ -86,15 +89,15 @@ You can choose to start from scratch or use the starter code we have provided he
 
 3. **getWordPoints(myWord, letterPoints)** - return an int representing the points for myWord.  Write a function that calculates and returns the total point value of `myWord` given the Python dictionary object `letterPoints` which consists of letter:pointValue pairs. If a character in `myWord` is not a key in the provided dictionary then its score value is 0. If any of the input is incorrect type then return 0. Note that you do not need to create the `letterPoints` dictionary in this step - it is a parameter to our function and will be created in `scrabbleWords()`.
 
-4. **outputWordPointPairs(pointWordList, filename, toFile)** - NO return (just prints a formatted list or writes it to file).
+4. **outputWordPointPairs(pointWordList, myLetters, toFile)** - NO return (just prints a formatted list or writes it to file).
 
-NOTE: Your function should add the .txt extension to the filename before opening a file with that name.
+* Write a function which will output the (pointValue, word) pairs in pointWordList to the shell or to a file depending on the bool value `toFile`
 
-* Write a function which will output the (pointValue, word) pairs in pointWordList to the shell or to a file depending on the bool value `toFile`. Note the order of elements of the tuple is (pointValue, word) not (word, pointValue). Find out why this specific order is preferred.
+* When `toFile` is `False`,  print all the words followed by their point value.  Format the output so that your word is left justified in a field of width 4 more than the number of letters in `myLetters`, and the point value follows immediately afterwards.  You can do this with the format string method by carefully forming the `'{...}'` string first.
 
-* When `toFile` is `False`,  print all the words followed by their point value.  Format the output so that your word is left justified in a field of width 4 more than the number of letters in `filename`, and the point value follows immediately afterwards.  You can do this with the format string method by carefully forming the `'{...}'` string first.
+* If `toFile` is `True`, write the same text as your formatted screen output from above to a text file.  Name the file the string of letters contained in `myLetters` followed by .txt.  So in the example above with scrabbleWords("buoni"), the file that is created is `buoni.txt`.  Note that every time you want to write to a new line, you will need to include the newline character '\n' in your file.write() statement.  You can see what the output should look like in the example here: [buoni.txt](https://ucsb-cs8.github.io/m19-wang/lab/lab07/buoni.txt).
 
-* If `toFile` is `True`, write the same text as your formatted screen output from above to a text file.  Name the file the string of letters contained in `myLetters` followed by .txt.  So in the example above with scrabbleWords("buoni"), the file that is created is `buoni.txt`.  Note that every time you want to write to a new line, you will need to include the newline character '\n' in your file.write() statement.  You can see what the output should look like in the example here: [buoni.txt](https://ucsb-cs8-w18-wang.github.io/lab/lab07/buoni.txt). You can simply verify that when you run your program you produce this same file if `myletters` == `"buoni"`.
+You can simply verify that when you run your program you produce this same file if `myletters` == `"buoni"`.
 
 ### Putting it all together:
 
@@ -108,11 +111,11 @@ NOTE: Your function should add the .txt extension to the filename before opening
 
 ![letter points](scrabble_letters.png){:height="200px"}
 
-* Create a list of tuples consisting of (pointValue, word) pairs by looping through the list `myWords` and getting the point value for each word - name this list of tuples `pointWordList`.  To calculate pointValue, you will want to call helper function `getWordPoints()`. Note that each tuple is ordered as (pointValue, word) and not (word, pointValue). This makes it easier to sort the list (see next step).
+* Create a list of tuples consisting of (pointValue, word) pairs by looping through the list `myWords` and getting the point value for each word - name this list of tuples `pointWordList`.  To calculate pointValue, you will want to call helper function `getWordPoints()`.
 
 * Sort `pointWordList` in descending order.  Now, you can use the list method sort() to sort the tuples according to their first entry, pointValue.  But sort() arranges a list in ascending order by default....can you think of a way to reverse this?
 
-* Call your `outputWordPointPairs()` and print your formatted string output to terminal. Then make a second call to `outputWordPointPairs()` to output to a text file named after the string in `myLetters`.
+* Call your `outputWordPointPairs()` and print your formatted string output to terminal. Then make a second call to `outputWordPointPairs()` to output to a .txt file named after the string in `myLetters`.
 
 ## Write test code in {{page.num}}_student_tests.py
 
@@ -126,9 +129,9 @@ Write the test code before you implement the functions. This is a way of demonst
 You should test the other two functions manually, although you are welcome to write test code for them as well.
 
 Put your test code in `{{page.num}}_student_test.py` and submit it along with your `{{page.num}}.py` file.
-This test code is worth some amount of points for this lab. We recommend writing at least 3-5 test cases per function, but feel free to write more until you're confident with your solution.
+We recommend writing at least 3-5 test cases per function, but feel free to write more until you're confident with your solution.
 
-Note that Gradescope will only give you a partial score. Gradescope will use test cases different from the tests that you will wrote in `{{page.num}}_student_test.py`.
+Gradescope will use test cases different from the tests that you will wrote in `{{page.num}}_student_test.py`.
 
 ### What {{page.num}}.py should look like
 
@@ -189,7 +192,6 @@ def test_getWordPoints_0():
 ...
 ```
 
-
 # Running the final product
 
 You can load your `{{page.num}}.py` and run `scrabbleWords` in IDLE's interactive shell. In `scrabbleWords` you <strong>must</strong> make one call to print to the console with `outputWordPointPairs` where `toFile = True`, and another call to write to a file with `outputWordPointPairs` where `toFile = False`. Gradescope test cases will fail if you forget to write your output to a file.
@@ -198,4 +200,4 @@ You can load your `{{page.num}}.py` and run `scrabbleWords` in IDLE's interactiv
 
 Once you're done with writing your functions, navigate to the Lab assignment "{{page.num}}" on Gradescope and upload your `{{page.num}}.py` and `{{page.num}}_student_tests.py` files. <strong>*Remember to add your partner to Groups Members for this submission on Gradescope if applicable. At this point, if you worked in a pair, it is a good idea for both partners to log into Gradescope and see if you can see the uploaded files for {{page.num}}.*</strong>
 
-
+Thanks to Matt Buoni for this lab!
