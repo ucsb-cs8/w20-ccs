@@ -7,9 +7,8 @@ layout: lab
 num: project01
 prev_lab: lab07
 prev_lab_solution_url: https://github.com/ucsb-ccs-cs20-s18/ucsb-ccs-cs20-s18.github.io/blob/master/_lab/project01/basicShapes.py
-ready: false
+ready: true
 worksheet: ic01
-
 ---
 
 ## Goal
