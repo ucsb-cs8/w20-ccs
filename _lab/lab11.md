@@ -78,7 +78,7 @@ i        1
 
 So, how did our program know which letter combinations were valid words?......We have to specify a file of words, which you can find here: [wordlist.txt](https://ucsb-cs8.github.io/m19-wang/lab/lab07/wordlist.txt).
 
-This file must be downloaded (right click and "save as") and put into your `{{page.num}}` directory before you begin, so do that now.  Note that this file contains a fairly complete list of English words, so beware that there may be some expletive and/or raunchy words - please don't hold me personally responsible if you are offended.  Perhaps this will be motivation for some of you to complete the assignment.  
+This file must be downloaded (right click and "save as") and put into your <tt>{{page.num}}</tt> directory before you begin, so do that now.  Note that this file contains a fairly complete list of English words, so beware that there may be some expletive and/or raunchy words - please don't hold me personally responsible if you are offended.  Perhaps this will be motivation for some of you to complete the assignment.  
 
 You can choose to start from scratch or use the starter code we have provided here:
 * <https://github.com/ucsb-cs8/m19-wang/blob/master/_lab/lab07/lab07.py>
@@ -128,7 +128,7 @@ You can simply verify that when you run your program you produce this same file 
 
 * Call your `outputWordPointPairs()` and print your formatted string output to terminal. Then make a second call to `outputWordPointPairs()` to output to a .txt file named after the string in `myLetters`.
 
-## Write test code in {{page.num}}_student_tests.py
+## Write test code in {{page.altnum}}_student_tests.py
 
 You must write your own tests using pytest for the following functions: 
 * `createWordList(filename)`
@@ -139,12 +139,12 @@ Write the test code before you implement the functions. This is a way of demonst
 
 You should test the other two functions manually, although you are welcome to write test code for them as well.
 
-Put your test code in `{{page.num}}_student_test.py` and submit it along with your `{{page.num}}.py` file.
+Put your test code in <tt>{{page.altnum}}_student_test.py</tt> and submit it along with your <tt>{{page.altnum}}.py</tt> file.
 We recommend writing at least 3-5 test cases per function, but feel free to write more until you're confident with your solution.
 
-Gradescope will use test cases different from the tests that you will wrote in `{{page.num}}_student_test.py`.
+Gradescope will use test cases different from the tests that you will wrote in <tt>{{page.altnum}}_student_test.py</tt>.
 
-### What {{page.num}}.py should look like
+### What {{page.altnum}}.py should look like
 
 ```
 import pytest
@@ -170,11 +170,11 @@ if __name__=="__main__":
   # manual tests
 
 ```
-### What {{page.num}}_student_tests.py should look like
+### What {{page.altnum}}_student_tests.py should look like
 
 ```
 import pytest
-from {{page.num}} import createWordList
+from lab07 import createWordList
 
 def test_createWordList_0():
   #Your test code
@@ -185,13 +185,13 @@ def test_createWordList_1():
 ....
 
 
-from {{page.num}} import canWeMakeIt
+from lab07 import canWeMakeIt
 
 def test_canWeMakeIt_0():
   assert(canWeMakeIt('ape','pae') == True)
 
 ...
-from {{page.num}} import getWordPoints
+from lab07 import getWordPoints
 letterPoints = {'a':1, 'b':3, 'c':3, 'd':2, 'e':1, 'f':4,\
                 'g':2, 'h':4, 'i':1, 'j':8, 'k':5, 'l':1,\
                 'm':3, 'n':1, 'o':1, 'p':3, 'q':10, 'r':1,\
@@ -205,10 +205,11 @@ def test_getWordPoints_0():
 
 # Running the final product
 
-You can load your `{{page.num}}.py` and run `scrabbleWords` in IDLE's interactive shell. In `scrabbleWords` you <strong>must</strong> make one call to print to the console with `outputWordPointPairs` where `toFile = True`, and another call to write to a file with `outputWordPointPairs` where `toFile = False`. Gradescope test cases will fail if you forget to write your output to a file.
+You can load your <tt>{{page.altnum}}.py</tt> and run `scrabbleWords` in IDLE's interactive shell. In `scrabbleWords` you <strong>must</strong> make one call to print to the console with `outputWordPointPairs` where `toFile = True`, and another call to write to a file with `outputWordPointPairs` where `toFile = False`. Gradescope test cases will fail if you forget to write your output to a file.
 
-# Upload `{{page.altnum}}.py` and `{{page.altnum}}_tests.py` to Gradescope.
+# Upload <tt>{{page.altnum}}.py</tt> and <tt>{{page.altnum}}_tests.py</tt> to Gradescope.
 
-Once you're done with writing your functions, navigate to the Lab assignment "{{page.num}}" on Gradescope and upload your `{{page.num}}.py` and `{{page.num}}_student_tests.py` files. <strong>*Remember to add your partner to Groups Members for this submission on Gradescope if applicable. At this point, if you worked in a pair, it is a good idea for both partners to log into Gradescope and see if you can see the uploaded files for {{page.num}}.*</strong>
+
+Once you're done with writing your functions, navigate to the Lab assignment "{{page.num}}" on Gradescope and upload your <tt>{{page.altnum}}.py</tt> and `{{page.altnum}}_student_tests.py` files. <strong>*Remember to add your partner to Groups Members for this submission on Gradescope if applicable. At this point, if you worked in a pair, it is a good idea for both partners to log into Gradescope and see if you can see the uploaded files for {{page.num}}.*</strong>
 
 Thanks to Matt Buoni for this lab!
