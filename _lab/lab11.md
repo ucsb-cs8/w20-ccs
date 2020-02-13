@@ -5,10 +5,21 @@ desc: "Scrabble word finder: Python lists, dictionaries and file I/O"
 due: 2020-12-05 17:00
 layout: lab
 num: lab11
+altnum: lab07
 ready: true
 ---
 
 
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Note: Use {{page.altnum}}, not {{page.num}} in your filenames</h5>
+    <p class="card-text">Even though this lab is numbered as {{page.num}} both on the website and on Gradescope,
+      please name the files you upload to Gradescope file <tt>{{page.altnum}}.py</tt> and <tt>{{page.altnum}}_tests.py</tt></p>
+    <p>The reasons is because this lab was originally {{page.altnum}} in the course in which it was originally delivered,
+      and the autograder hasn't been updated yet for the new name.
+    </p>
+  </div>
+</div>
 
 In this lab, you'll get more practice with:
 
@@ -196,7 +207,7 @@ def test_getWordPoints_0():
 
 You can load your `{{page.num}}.py` and run `scrabbleWords` in IDLE's interactive shell. In `scrabbleWords` you <strong>must</strong> make one call to print to the console with `outputWordPointPairs` where `toFile = True`, and another call to write to a file with `outputWordPointPairs` where `toFile = False`. Gradescope test cases will fail if you forget to write your output to a file.
 
-# Upload `{{page.num}}.py` and `{{page.num}}_tests.py` to Gradescope.
+# Upload `{{page.altnum}}.py` and `{{page.altnum}}_tests.py` to Gradescope.
 
 Once you're done with writing your functions, navigate to the Lab assignment "{{page.num}}" on Gradescope and upload your `{{page.num}}.py` and `{{page.num}}_student_tests.py` files. <strong>*Remember to add your partner to Groups Members for this submission on Gradescope if applicable. At this point, if you worked in a pair, it is a good idea for both partners to log into Gradescope and see if you can see the uploaded files for {{page.num}}.*</strong>
 
