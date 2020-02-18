@@ -11,14 +11,15 @@ ready: true
 
 
 <div class="card">
-  <div class="card-body">
-    <h5 class="card-title">Note: Use {{page.altnum}}, not {{page.num}} in your filenames</h5>
-    <p class="card-text">Even though this lab is numbered as {{page.num}} both on the website and on Gradescope,
-      please name the files you upload to Gradescope file <tt>{{page.altnum}}.py</tt> and <tt>{{page.altnum}}_tests.py</tt></p>
-    <p>The reasons is because this lab was originally {{page.altnum}} in the course in which it was originally delivered,
+<div class="card-body">
+<h5 class="card-title">Note: Use {{page.altnum}}, not {{page.num}} in your filenames</h5>
+<p class="card-text">Even though this lab is numbered as {{page.num}} both on the website and on Gradescope,
+please name the files you upload to Gradescope file <tt>{{page.altnum}}.py</tt> and <tt>{{page.altnum}}_tests.py</tt>
+</p>
+<p>The reasons is because this lab was originally {{page.altnum}} in the course in which it was originally delivered,
       and the autograder hasn't been updated yet for the new name.
-    </p>
-  </div>
+</p>
+</div>
 </div>
 
 In this lab, you'll get more practice with:
