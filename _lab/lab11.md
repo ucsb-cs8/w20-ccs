@@ -83,7 +83,7 @@ This file must be downloaded (right click and "save as") and put into your <tt>{
 
 You can choose to start from scratch or use the starter code we have provided here:
 * <https://github.com/ucsb-cs8/m19-wang/blob/master/_lab/lab07/lab07.py>
-* https://github.com/ucsb-cs8/m19-wang/blob/master/_lab/lab07/lab07_student_tests.py>
+* <https://github.com/ucsb-cs8/m19-wang/blob/master/_lab/lab07/lab07_student_tests.py>
 
 ### Functions to Implement:
 
